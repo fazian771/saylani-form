@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.top-container {
+    height: 40vh;
+    width: 80%;
+    background: rgb(241, 231, 231);
+    display: block;
+    margin: 0 auto;
+    border-radius: 0 0 60% 60%;
+    position: relative;
+}
+
+.bgclass img {
+    height: 100px;
+    width: 400px;
+    margin: 40px 0px 0px 500px;
+    position: absolute;
+    top: 0;
+    left: -10%;
+}
+
+.registration {
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+
+}
+
+.services {
+    position: absolute;
+    bottom: 20%;
+    left: -10%;
+}
+
+.portal {
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+}
+
+.portal button {
+    width: 120px;
+    height: 40px;
+    border-radius: 1px;
+    background: none;
+}
+
+.left-container {
+    height: 66vh;
+    width: 30vw;
+    margin: 0px 0px 0px 210px;
+    padding: 20px;
+    float: left;
+}
+
+.left-container p {
+
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+
+}
+
+.right-container p {
+
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+
+}
+
+.right-container {
+    height: 66vh;
+    width: 30vw;
+    margin: 0px 210px 0px 0px;
+    padding: 20px;
+    float: right;
+}
+
+.registration {
+    margin: 0px 0px 0px 500px;
+
+}
+
+.services {
+    margin: 0px 0px 0px 550px;
+
+}
+
+.portal {
+    margin: 0px 0px 0px 480px;
+}
+
+.portal button {
+    width: 120px;
+    height: 40px;
+    border-radius: 1px;
+    background: none;
+}
+
+.left-container {
+    height: 66vh;
+    width: 30vw;
+    margin: 0px 0px 0px 210px;
+    padding: 20px;
+    float: left;
+}
+
+.left-container p {
+
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+
+}
+
+.right-container p {
+
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+
+}
+
+.right-container {
+    height: 66vh;
+    width: 30vw;
+    margin: 0px 210px 0px 0px;
+    padding: 20px;
+    float: right;
+}
+
+#Input {
+    width: 33vw;
+    height: 8vh;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid rgb(199, 248, 126);
+    border-radius: 2px;
+}
+
+.bottom-container {
+    height: 90vh;
+    width: 35vw;
+    margin: 0.5% 0px 0px 210px;
+    padding: 20px;
+    float: left;
+}
+
+#Input2 {
+    width: 72vw;
+    height: 8vh;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid rgb(199, 248, 126);
+    border-radius: 2px;
+}
+
+.bottom-container p {
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+}
+
+.upload-container {
+    width: 12%;
+    max-width: 200px;
+    margin: 1% 0px 0px 0px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.upload-container p {
+    color: rgb(29, 29, 145);
+    font-size: 16px;
+    padding: 15px 10px 10px 0px;
+}
+
+.upload {
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 50px 15px 0;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.upload:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+.upload-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 100px;
+}
+
+.upload-container input {
+    display: none;
+}
+
+.upload-container label i {
+    font-size: 1.1rem;
+}
+
+.upload-text {
+    float: right;
+    margin: 60px 130px 0px 0px;
+}
+
+.upload-text p {
+    font-size: 12px;
+    color: black;
+
+}
+
+.oath-container {
+    width: 80vw;
+    height: auto;
+}
+
+.oath-container p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
